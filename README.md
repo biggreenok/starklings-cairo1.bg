@@ -16,9 +16,17 @@
 
 # STARKLINGS
 
-### An interactive tutorial to get you up and running with Cairo and Starknet
+Welcome to starklings, the exciting world of StarkNet and Cairo!
 
----
+Imagine a fascinating journey
+
+Starklings is your portal
+
+You are about to begin a journey full of challenging and exciting exercises, where each obstacle overcome will bring you closer to becoming an expert in StarkNet and Cairo. Don't worry if you run into error messages or seemingly complicated problems – those are the challenges that will take you to the next level of your learning!
+
+With every step you take, you'll find helpful clues to guide you on your path. These clues will be your allies as you become a master problem solver in the world of blockchain programming!
+
+Remember, every small victory is one more step towards success. So get ready to dive into starklings, unlock your potential and enjoy the exciting journey that awaits you!
 
 ## Setup and run
 
