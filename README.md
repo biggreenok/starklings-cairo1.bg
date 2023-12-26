@@ -44,15 +44,6 @@ cargo run -r --bin starklings watch starknet1
 ```
 starklings - An interactive tutorial to get started with Cairo and Starknet
 
-       _             _    _ _
-      | |           | |  | (_)
-   ___| |_ __ _ _ __| | _| |_ _ __   __ _ ___
-  / __| __/ _` | '__| |/ / | | '_ \ / _` / __|
-  \__ \ || (_| | |  |   <| | | | | | (_| \__ \
-  |___/\__\__,_|_|  |_|\_\_|_|_| |_|\__, |___/
-                                     __/ |
-                                    |___/
-
 Thanks for installing starklings!
 
 Is this your first time? Don't worry, starklings is made for beginners! We are
@@ -60,23 +51,22 @@ going to teach you a bunch of stuff about StarkNet and Cairo.
 
 Here's how starklings works,
 
-1. To start starklings run `cargo run -r --bin starklings watch`
-2. It'll automatically start with the first exercise. Don't get confused by
-error message popping up as soon as you run starklings! This is part of the
-exercise that you're supposed to solve, so open the exercise file in an editor
-and start your detective work!
-3. If you're stuck on an exercise, there is a helpful hint you can view by
-typing `hint` (in watch mode), or running `cargo run -r --bin starklings hint
-exercise_name`.
-4. When you have solved the exercise successfully, Remove `// I AM NOT DONE`
-comment to move on to the next exercise.
-5. If an exercise doesn't make sense to you, please open an issue on GitHub!
-(https://github.com/shramee/starklings-cairo1/issues/new).
+1. **Start the program:**
+    To get started, you need to open a command window on your computer and type a special command. This command is `cargo run -r --bin starklings watch`. This will launch the program and begin teaching you about a topic called StarkNet and Cairo.
 
-Got all that? Great! To get started, run `starklings watch` in order to get the
-first exercise. Make sure to have your editor open!
-```
+2. **Resolve the problems:**
+    When the program starts, you will see instructions and problems that you need to solve. You may see some error messages at first, but don't worry! It's part of the challenge. You will have to open files and look for clues to solve these problems.
 
+3. **Get help if you get stuck:**
+    If you encounter a difficult problem, the program has a function to give you hints. You can type `hint` or use `cargo run -r --bin starklings hint exercise_name` to get a hint on how to solve it.
+
+4. **Mark resolved issues:**
+    When you have found the solution to a problem, you need to make a small change to a file. Look for a comment that says `// I AM NOT DONE` and remove it. This will tell the program that you have finished that problem and you can move on to the next one.
+
+5. **Ask for help if you need it:**
+    If at any time you feel confused or need more help, don't hesitate to ask for help! You can go to the program's website (https://github.com/shramee/starklings-cairo1) and open a message to explain what you are stuck on.
+
+Remember, it's normal to feel a little confused at first. The most important thing is not to give up and keep trying. Have fun learning with starklings!
 ## VSCode extension & language server
 
 In order to have syntax highlighting and language server features, you will need to install the Cairo Language Server. The instructions available in the [Cairo repository](https://github.com/starkware-libs/cairo/tree/main/vscode-cairo)
